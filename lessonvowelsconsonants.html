@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Unit 6 - lesson 1 </title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<style>
+body{ background: linear-gradient(45deg, white, #D1E4C4, white); 
+height:255vh; }
+
+
+.tooltips{
+ position:relative;
+ display:block;
+ text-align:center;
+ font-size:70px;
+ font-weight:bold;
+ cursor:pointer;
+ 
+}
+.tooltips .tooltipstext{
+ visibility:hidden;
+ position:absolute;
+ z-index:1;
+ left:100px;
+ width:1100px;
+ top:125%;
+ background: #F1F7ED;
+ font-size:40px;
+ font-weight:normal;
+ padding: 10px;
+ border-radius: 6px;
+ box-shadow: 5px 0px 7px black;
+ text-align: left;
+ 
+}
+.tooltips:hover .tooltipstext{  visibility: visible;}
+
+</style>
+</head>
+<body>
+
+
+<h1 class="tooltips"> Vowels and Consonants</h1> 
+
+
+<div style=" display: grid; grid-template-columns: 900px; justify-content: center; margin-top: 20px;">
+
+
+<div style="text-align: left; font-size: 30px; background-color: #F1F7ED; padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey;">
+
+
+<div style="text-align: center; font-size: 40px;"> <b>Vowels</b></div><br>
+
+Vowels are sounds produced without any significant constriction or closure of the airflow in the vocal tract.<br><br>
+
+In English, there are five primary vowel letters: <b>A, E, I, O,</b> and <b>U</b>.<br> <br>
+However, the English language has more vowel sounds than vowel letters due to various combinations and diphthongs.<br><br>
+
+Vowels are characterized by the absence of any obstruction in the mouth while producing the sound.<br> <br>
+The tongue is free to move and does not touch any part of the mouth's interior.<br><br>
+Examples of English vowel sounds: <br>
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+<div>A &#10162; cat</div>
+<div>E &#10162; bed</div>
+<div>I &#10162; sit</div>
+<div>O &#10162; hot</div>
+<div>U &#10162; cup</div>
+</div><br><br>
+
+
+<div style="text-align: center; font-size: 40px;"> <b>Consonants</b></div><br>
+
+Consonants are sounds produced with some degree of obstruction or closure of the airflow in the vocal tract.<br><br>
+Consonants are produced by obstructing or partially obstructing the airflow with the lips, tongue, teeth, or palate.<br><br>
+
+Examples of English consonant sounds: <br><br>
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+<div>B &#10162; bat<br><hr>
+H &#10162; hat<br><hr>
+N &#10162; nest<br><hr>
+T &#10162; top</div>
+<div>C &#10162; cat<br><hr>
+J &#10162; jam<br><hr>
+P &#10162; pen<br><hr>
+V &#10162; van</div>
+<div>D &#10162; dog<br><hr>
+K &#10162; kite<br><hr>
+Q &#10162; queen<br><hr>
+W &#10162; wet</div>
+<div>F &#10162; fish<br><hr>
+L &#10162; lamp<br><hr>
+R &#10162; rat<br><hr>
+Y &#10162; yes</div>
+<div>G &#10162; goat<br><hr>
+M &#10162; moon<br><hr>
+S &#10162; sun<br><hr>
+Z &#10162; zoo</div>
+</div>
+
+
+</div>
+</div>
+
+
+<script>
+  var sound1 = new Audio();
+  sound1.src = "spectacles.mp3";
+</script>
+</body>
+</html>
